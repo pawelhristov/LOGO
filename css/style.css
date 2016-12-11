@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial;
+  width: 840px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cut {
+  display: block;
+  float: left;
+  height: 40px;
+  background: #C2E183;
+  text-align: center;
+  padding: 17px 17px 0 19px;
+  position: relative;
+  margin: 21px 35px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #3a83a6;
+}
+.cut:after {
+  content: "";
+  border-top: 40px solid red;
+  border-bottom: 40px solid red;
+  border-left: 40px solid blue;
+  position: absolute;
+  right: -31px;
+  top: 0;
+  border-top: 31px solid transparent;
+  border-bottom: 27px solid transparent;
+  border-left: 31px solid #C2E183;
+}
+header {
+  background: #1ebdfe;
+  background: -moz-linear-gradient(top, #1ebdfe 0%, #1ebdfe 1%, #27b5e7 1%, #25b5f1 6%, #12b4f2 7%, #22b5e9 7%, #1eb8ee 11%, #1eb8ee 11%, #1eb8ee 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #1ebdfe), color-stop(1%, #1ebdfe), color-stop(1%, #27b5e7), color-stop(6%, #25b5f1), color-stop(7%, #12b4f2), color-stop(7%, #22b5e9), color-stop(11%, #1eb8ee), color-stop(11%, #1eb8ee), color-stop(100%, #1eb8ee));
+  background: -webkit-linear-gradient(top, #1ebdfe 0%, #1ebdfe 1%, #27b5e7 1%, #25b5f1 6%, #12b4f2 7%, #22b5e9 7%, #1eb8ee 11%, #1eb8ee 11%, #1eb8ee 100%);
+  background: -o-linear-gradient(top, #1ebdfe 0%, #1ebdfe 1%, #27b5e7 1%, #25b5f1 6%, #12b4f2 7%, #22b5e9 7%, #1eb8ee 11%, #1eb8ee 11%, #1eb8ee 100%);
+  background: -ms-linear-gradient(top, #1ebdfe 0%, #1ebdfe 1%, #27b5e7 1%, #25b5f1 6%, #12b4f2 7%, #22b5e9 7%, #1eb8ee 11%, #1eb8ee 11%, #1eb8ee 100%);
+  background: linear-gradient(to bottom, #1ebdfe 0%, #1ebdfe 1%, #27b5e7 1%, #25b5f1 6%, #12b4f2 7%, #22b5e9 7%, #1eb8ee 11%, #1eb8ee 11%, #1eb8ee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1ebdfe', endColorstr='#1eb8ee', GradientType=0);
+}
+header h2 {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  color: #F4E8EA;
+}
+header h1 {
+  line-height: 1;
+  text-align: center;
+  margin-top: -11px;
+  font-size: 1.9em;
+  background-color: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  text-shadow: #397f99 0px 3px 3px;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 70px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-size: 160%;
+  color: #5F5F5F;
+  cursor: pointer;
+}
+nav {
+  background-color: #C3C1C2;
+}
+div h1 {
+  color: #025076;
+}
+footer {
+  background-color: #434343;
+  border-top: 2px solid black;
+  color: white;
+  clear: both;
+  padding: 35px;
+}
+footer p {
+  margin-top: -15px;
+}
+p a {
+  font-weight: bold;
+  color: #146499;
+  text-decoration: none;
+}
+section {
+  float: left;
+  padding: 35px;
+  background-color: #ECE8E7;
+  width: 770px;
+}
+main {
+  width: 840px;
+  float: left;
+}
+article {
+  float: left;
+  width: 520px;
+}
+article h1 {
+  color: #065786;
+  font-size: 1.8em;
+}
+article h1,
+h5 {
+  margin-bottom: 12px;
+}
+article h2 {
+  margin-bottom: 30px;
+}
+article h3 {
+  margin-bottom: 4px;
+}
+article p {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+aside {
+  border: 1px solid #C6C5C3;
+  background-color: #D4D6D3;
+  width: 180px;
+  height: 450px;
+  float: right;
+  margin: 5px;
+  padding: 19px;
+  margin-top: 8px;
+}
+aside h3 {
+  color: #03334A;
+  margin-bottom: 29px;
+  margin-top: 29px;
+  margin-left: 13px;
+  font-size: 21px;
+}
+.sub {
+  color: #03334A;
+  margin-bottom: 20px;
+  margin-top: -5px;
+  margin-left: 13px;
+  font-size: 21px;
+}
+aside p {
+  text-decoration: underline;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+aside span a {
+  color: black;
+  margin-left: 10px;
+}
+.fa.fa-rss-square {
+  font-size: 24px;
+  background-color: white;
+  color: #FF7C09;
+}
+.fa.fa-2x.fa-envelope-o {
+  font-size: 20px;
+  background-color: white;
+  color: #ccc;
+}
+.fa.fa-twitter-square {
+  font-size: 20px;
+  background-color: white;
+  color: #44F0F4;
+}
+button {
+  background-color: #B7D26B;
+  padding: 10px;
+  width: 135px;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
